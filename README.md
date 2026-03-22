@@ -1,4 +1,23 @@
-# React + TypeScript + Vite
+# 大陆财税工作室 · 官网
+
+React + TypeScript + Vite + Tailwind。本地：`npm install` → `npm run dev`。
+
+## GitHub Pages（在线预览）
+
+仓库：[Joelu2023/dalu_caishui-V2](https://github.com/Joelu2023/dalu_caishui-V2)
+
+1. 打开 GitHub 仓库 **Settings → Pages**。  
+2. **Build and deployment** 里 **Source** 选 **GitHub Actions**（不要选 Deploy from a branch）。  
+3. 向 `main` 推送代码后，工作流 **Deploy to GitHub Pages** 会自动构建并发布。  
+4. 站点地址（子路径与仓库名一致）：
+
+   **https://joelu2023.github.io/dalu_caishui-V2/**
+
+若 Actions 报错，在 **Actions** 标签页查看日志。首次启用 Pages 可能需等待几分钟。
+
+---
+
+# React + TypeScript + Vite（模板说明）
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
