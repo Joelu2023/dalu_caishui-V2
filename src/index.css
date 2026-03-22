@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+/* 高端顾问站：米白底 + 深灰蓝 + 哑光金点缀 */
+@theme {
+  --font-sans: 'Source Han Sans SC', 'Noto Sans SC', 'Microsoft YaHei', system-ui,
+    sans-serif;
+
+  --color-canvas: #f7f5f0;
+  --color-surface: #ffffff;
+  --color-foreground: #222222;
+  --color-muted: #5b6573;
+  --color-line: #d8d6cf;
+
+  --color-primary: #1f2a37;
+  --color-secondary: #273548;
+  --color-accent: #b79b5b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-foreground);
+  background: var(--color-canvas);
+}
+
+#root {
+  min-height: 100svh;
+}
