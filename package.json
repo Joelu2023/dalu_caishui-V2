@@ -10,6 +10,7 @@
     "deploy:cos": "npm run build:china && node scripts/deploy-cos.mjs",
     "cos:website": "node scripts/enable-cos-website.mjs",
     "deploy:cos:full": "npm run deploy:cos && node scripts/enable-cos-website.mjs",
+    "deploy:gh-pages": "node scripts/deploy-gh-pages.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -30,6 +31,7 @@
     "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.4.0",
     "mime": "^4.1.0",
     "tailwindcss": "^4.2.2",
